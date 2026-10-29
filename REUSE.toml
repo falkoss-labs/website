@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# Licence and copyright of files that cannot carry a header (REUSE specification 3.3).
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "falkOSS – Falcon Lake Open Source Software gUG (haftungsbeschränkt) i. G."
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+# Copies of the artwork from falkoss/brand (web-labs/) – kept as they are, under its licence.
+[[annotations]]
+path = "assets/**"
+precedence = "override"
+SPDX-FileCopyrightText = "falkOSS – Falcon Lake Open Source Software gUG (haftungsbeschränkt) i. G."
+SPDX-License-Identifier = "CC-BY-ND-4.0"
