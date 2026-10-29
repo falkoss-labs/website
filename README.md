@@ -6,7 +6,7 @@ resources, no cookies, no tracking. Same look as [falkoss.org](https://falkoss.o
 | Path | What |
 |---|---|
 | `index.html`, `style.css`, `404.html` | the page (English) |
-| `assets/` | icons, lockup, mark, social preview – **generated** by `brand/generate.py` in `falkoss/website`, copied here |
+| `assets/` | icons, lockup, mark, social preview – **copies** of `web-labs/` from [falkoss/brand](https://github.com/falkoss/brand) (CC BY-ND 4.0) |
 
 Imprint and privacy policy are falkoss.org's – same operator, one place to keep them current.
 
@@ -23,4 +23,5 @@ GitHub Pages via `.github/workflows/pages.yml` on every push to `main`. One-time
 1. Repo → Settings → Pages → Source: **GitHub Actions**; Custom domain: `labs.falkoss.org`; then **Enforce HTTPS**.
 2. DNS at IONOS: `CNAME labs` → `falkoss-labs.github.io` (no A/AAAA records for `labs`).
 
-Licence: the site's code is **AGPL-3.0-or-later** (`LICENSE`); the brand (logo, name, marks) is not covered by it.
+Licence: the site's code is **AGPL-3.0-or-later** (`LICENSE`); the files in `assets/` are under CC BY-ND 4.0, and the
+brand itself (logo, name, marks) is not covered by any licence – see falkoss/brand.
